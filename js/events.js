@@ -9,7 +9,7 @@ function frameIt(){
   $("img").on("load", function(e){
     $("img").addClass('tasty');
     var a= $("img")
-    a[0].style.background='3px solid red'
+    a[0].style.border ='3px solid red'
   });
 }
 
