@@ -8,7 +8,7 @@ function getIt(){
 function frameIt(){
   $("img").on("load", function(e){
     $("img").addClass('tasty');
-    $("img").css('background-color', 'green' )
+    $("img")[0].style.background='3px solid red'
   });
 }
 
