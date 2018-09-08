@@ -8,13 +8,14 @@ function getIt(){
 function frameIt(){
   $("img").on("load", function(e){
     $("img").addClass('tasty');
+    $("img").style.frame = '1px solid red'
   });
 }
 
 function pressIt(){
   $('document').on("keydown", function (e){
     if (e.key === 'G'){
-      alert("You pressed 'G'");
+      alert("You pressed G");
       return;
     }
   });
